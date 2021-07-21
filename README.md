@@ -9,7 +9,7 @@ password: Parabellum
 # Run npm install
 # node api
 
-#base_url = 'http://localhost:43210/upbase/api/1.0'
+# base_url = 'https://upbase-user-mgmt.herokuapp.com/upbase/api/1.0'
 
 #Routes
 
