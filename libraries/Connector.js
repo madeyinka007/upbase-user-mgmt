@@ -14,7 +14,6 @@ const Connector = {
 
             Connector._mongo.once('open', () => {})
             Connector._mongo.on('error', () => {})
-            mongoose.set('useFindAndModify', false)
             mongoose.Promise = global.Promise;
             mongoose.connect(url, {useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true})
             return Connector._mongo

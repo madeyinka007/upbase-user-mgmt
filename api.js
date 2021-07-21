@@ -7,7 +7,7 @@ const _config = require('./config/app.json')
 const dotenv = require('dotenv').config()
 
 const {seedAdmin} = require('./seeder/admin')
-//seedAdmin()
+seedAdmin()
 
 const app = express()
 
