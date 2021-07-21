@@ -6,6 +6,9 @@ This is a test application created by Adeyinka M Mutair for Upbase Limited.
 username: admin
 password: Parabellum
 
+# Run npm install
+# node api
+
 #base_url = 'http://localhost:43210/upbase/api/1.0'
 
 #Routes
