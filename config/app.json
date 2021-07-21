@@ -12,7 +12,7 @@
     },
     "query_limit": 10,
     "asset_folder": "./assets",
-    "image_path": "http://localhost:43210/images",
+    "image_path": "https://upbase-user-mgmt.herokuapp.com/images", //"http://localhost:43210/images",
     "mongodb": {
         "db": "upbase_user_db",
         "host": "127.0.0.1",
