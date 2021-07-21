@@ -1,0 +1,25 @@
+{
+    "app_name": "User Management Application",
+    "app_version": "1.0.0",
+    "app_url": "127.0.0.1",
+    "app_base": "/upbase",
+    "api": {
+        "_url": "/api",
+        "_version": "/1.0"
+    },
+    "bcrypt":{
+        "_rounds": 10
+    },
+    "query_limit": 10,
+    "asset_folder": "./assets",
+    "image_path": "http://localhost:43210/images",
+    "mongodb": {
+        "db": "upbase_user_db",
+        "host": "127.0.0.1",
+        "username": "",
+        "port": "",
+        "collections": {
+            "user": "upbase_user"
+        }
+    }
+}
