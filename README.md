@@ -14,7 +14,7 @@ password: Parabellum
 #Routes
 
 1. Register:
-    endpoint: {base_url}+ /auth/register
+    endpoint: {base_url}+ /auth/signup
     method: POST
     params: {"firstname":"myfirstname","lastname":"mylastname","username":"myusername","password":"mypassword"}
     response: returns json object
@@ -22,7 +22,7 @@ password: Parabellum
         ii. error : error = true, response: null
 
 2. Login:
-    endpoint: {base_url}+ /auth/login
+    endpoint: {base_url}+ /auth/signin
     method: POST
     params: {"username":"myusername","password":"mypassword"}
     response: returns json object
